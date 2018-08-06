@@ -29,7 +29,7 @@ func devLog(objects ...interface{}) {
 }
 
 func colorLog(colour color.Attribute, objects ...interface{}) {
-	localLog(colour, homeDirectory()+"/go/src/github.com/jesseduffield/lazygit/development.log", objects...)
+	localLog(color, homeDirectory()+"/go/src/github.com/jesseduffield/lazygit/development.log", objects...)
 }
 
 func commandLog(objects ...interface{}) {
